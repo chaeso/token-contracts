@@ -3,6 +3,7 @@
 let assert = require('chai').assert
 let consts = require("./consts.js")
 let Promise = require("bluebird")
+var Trustcoin = artifacts.require("./Trustcoin.sol");
 
 let myWeb3 = (typeof web3 === undefined ? undefined : web3)
 
