@@ -1,4 +1,4 @@
-pragma solidity ^0.4.7;
+pragma solidity ^0.4.11;
 
 // This contract is only used for the truffle IDE. It is not part of the Trustcoin
 // contract.
