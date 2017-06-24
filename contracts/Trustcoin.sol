@@ -46,6 +46,11 @@ contract Trustcoin is ERC20TokenInterface {
     _;
   }
 
+  function() payable {
+
+  }
+
+  
   //// Public functions ////
   function Trustcoin(address _migrationInfoSetter) {
     if (_migrationInfoSetter == 0) throw;
